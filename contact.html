@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Olivia Jardine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div>
+            <h2 class="name">Olivia Jardine</h2>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="./about_me.html">About Me</a></li>
+                <li><a href="projects">Projects</a></li>
+                <li><a href="art">Pixel Art</a></li>
+                <li><a href="./photos.html">Photo</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <hr class="hr-1">
+    <section id="contact">
+        <p class="section__text__p1">To stay connected...</p>
+        <h1 class="title">Contact Me!</h1>
+        <form action="mailto:oliviafjardine@gmail.com" method="post" enctype="text/plain"></form>
+        <fieldset class="message-container">
+            <legend class="section__text__p1"><strong>Send Me an Email</strong></legend>
+            <p class="section__text">
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName"
+                id="firstName" placeholder="Enter" autocomplete="on"
+                required>
+            </p>
+            <p>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName"
+                id="lastName" placeholder="Enter" autocomplete="on"
+                required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email"
+                id="email" placeholder="Enter" required>
+            <br>
+            <label for="message">Message:</label>
+            <br>
+            <textarea name="Message" id="message" cols="30" rows="10"
+            placeholder="Typer your message here..." required></textarea>
+        </fieldset>
+        <br>
+        <div class="section__text">
+            <div class=""></div>
+        </div>
+        <button class="btn btn-color-1" type="submit" formaction="after_submit.html" formmethod="submit">Submit</button>
+        <button class="btn btn-color-2" type="reset">Reset</button>
+    </section>
+    <hr class="hr-2">
+    <footer class="footer-container">
+        <p>
+            &lt;&lt;&lt; &copy; <a href="about_me.html">Olivia Jardine</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
+    </footer>
+</body>
+</html>
+

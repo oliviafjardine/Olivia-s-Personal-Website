@@ -1,0 +1,157 @@
+/* GENERAL */
+
+  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;600&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Pixelify Sans', sans-serif;
+  background-color: rgb(255, 254, 250);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+hr {
+  border: none;
+  border-top: 3px dotted #999;
+  color: #999;
+  background-color: #fff;
+  height: 1px;
+}
+
+.hr-1 {
+  border: none;
+  border-top: 5px dotted rgb(222, 133, 155);
+  color: #999;
+  background-color: #fff;
+  height: 1px;
+}
+
+.hr-2 {
+  border: none;
+  border-top: 5px dotted rgb(222, 133, 155);
+  color: #999;
+  background-color: #fff;
+  height: 1px;
+  margin: 30px 20px;
+}
+
+/* TRANSITION */
+a, .btn {
+  transition: all 300ms ease;
+}
+
+/* DESKTOP NAV */
+nav, .nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+a:hover {
+  color: gray;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+/* SECTIONS */
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 3rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
+  display: flex;
+}
+
+/* PROFILE SECTION */
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.section__pic-container {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  margin: 0 0;
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+
+.section__text p {
+  font-weight: 600;
+}
+
+.section__text__p1 {
+  text-align: center; 
+  background-color: rgb(255, 254, 250);
+}
+
+.section__text__p1 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem; 
+}
+
+.title {
+  position: sticky;
+  top: 0px;
+  text-align: center;
+  font-size: 3rem;
+  background-color: rgb(255, 254, 250);
+}
+
+/* ICONS */
+
+.icon {
+  cursor: pointer;
+  height: 3rem;
+}
+
+.about-container {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.details-container {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+}
+
+.footer-container {
+  text-align: center;
+  margin: 30px 0px;
+}
